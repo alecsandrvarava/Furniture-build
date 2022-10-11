@@ -1157,7 +1157,7 @@ select:-webkit-autofill:focus {
 }
 
 .swiper-pagination.swiper-pagination-fraction.swiper-pagination-horizontal {
-  top: 92%;
+  top: 89%;
   left: calc(-270px + -385 * ((100vw - 768px) / 1052));
 }
 @media (min-width: 768px) {
@@ -1205,7 +1205,7 @@ select:-webkit-autofill:focus {
 
 .swiper .home-next {
   left: calc(116px + 144 * ((100vw - 768px) / 1052));
-  top: 90%;
+  top: 87%;
   right: auto;
 }
 @media (min-width: 768px) {
@@ -1228,7 +1228,7 @@ select:-webkit-autofill:focus {
 
 .swiper .home-next.swiper-button-disabled {
   left: calc(116px + 144 * ((100vw - 768px) / 1052));
-  top: 90%;
+  top: 87%;
   right: auto;
 }
 @media (min-width: 768px) {
@@ -1245,7 +1245,7 @@ select:-webkit-autofill:focus {
 
 .swiper .home-prev.swiper-button-disabled {
   left: calc(84px + 139 * ((100vw - 768px) / 1052));
-  top: 90%;
+  top: 87%;
   right: auto;
 }
 @media (min-width: 768px) {
@@ -1262,7 +1262,7 @@ select:-webkit-autofill:focus {
 
 .swiper .home-prev {
   left: calc(84px + 139 * ((100vw - 768px) / 1052));
-  top: 90%;
+  top: 87%;
   right: auto;
 }
 @media (min-width: 768px) {
