@@ -1792,11 +1792,11 @@ select:-webkit-autofill:focus {
   }
   .categories__item:hover .categories__item-box .categories__item-price.stock {
     color: #fff;
-    background-color: #44c697;
+   
   }
   .categories__item:hover .categories__item-box .categories__item-price.stock span {
     color: #fff;
-    background-color: #44c697;
+    
   }
 }
 .categories .new,
@@ -1841,6 +1841,7 @@ select:-webkit-autofill:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+ transition: 0.2s all;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1868,6 +1869,7 @@ select:-webkit-autofill:focus {
   font-size: 24px;
   line-height: 125%;
   text-transform: uppercase;
+	transition: 0.2s all;
 }
 @media (max-width: 1920px) {
   .categories__item-price {
@@ -1879,7 +1881,7 @@ select:-webkit-autofill:focus {
 .categories__item-price.stock {
   font-size: 24px;
   color: #ff1b1b;
-  background-color: #fff;
+      background-color: transparent;
   max-width: 100%;
   padding: 0;
 }
